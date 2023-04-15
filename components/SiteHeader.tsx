@@ -19,7 +19,7 @@ export function SiteHeader() {
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
-            <Link
+            {/* <Link
               href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
@@ -34,8 +34,8 @@ export function SiteHeader() {
                 <Icons.gitHub className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </div>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href={siteConfig.links.twitter}
               target="_blank"
               rel="noreferrer"
@@ -50,7 +50,7 @@ export function SiteHeader() {
                 <Icons.twitter className="h-5 w-5 fill-current" />
                 <span className="sr-only">Twitter</span>
               </div>
-            </Link>
+            </Link> */}
             <Popover>
               <PopoverTrigger>
                 <div
