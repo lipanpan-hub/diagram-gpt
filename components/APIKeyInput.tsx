@@ -35,11 +35,11 @@ export const APIKeyInput = () => {
   return (
     <div className="grid w-full max-w-sm items-center gap-1.5">
       <div>
-        <Label htmlFor="api-key">OpenAI API key</Label>
+        <Label htmlFor="api-key">API key -- <a href="https://djk.lipanpanx.com">购买Key</a></Label>
         <Input
           type="password"
           id="api-key"
-          placeholder="OpenAI API Key"
+          placeholder="API Key"
           value={apiKey}
           onChange={handleChange}
           className="mt-2"

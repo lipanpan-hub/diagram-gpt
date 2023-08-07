@@ -28,7 +28,7 @@ export const OpenAIStream = async (
   key: string
 ) => {
   const system = { role: "system", content: systemPrompt };
-  const res = await fetch(`https://api.openai.com/v1/chat/completions`, {
+  const res = await fetch(`https://onekey.zeabur.app/v1/chat/completions`, {
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${key || process.env.OPENAI_API_KEY}`,
