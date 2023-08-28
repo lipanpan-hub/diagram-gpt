@@ -35,7 +35,7 @@ export const APIKeyInput = () => {
   return (
     <div className="grid w-full max-w-sm items-center gap-1.5">
       <div>
-        <Label htmlFor="api-key">API key -- <a href="https://djk.lipanpanx.com">购买Key</a></Label>
+        <Label htmlFor="api-key">API key -- <a href="https://key.dovxvob.com">购买Key</a></Label>
         <Input
           type="password"
           id="api-key"
